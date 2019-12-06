@@ -1,0 +1,5 @@
+
+.idea/
+cdk.out/
+node_modules/
+scale-your-cloudformation.iml
