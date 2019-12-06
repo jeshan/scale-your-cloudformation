@@ -19,6 +19,11 @@
       let repo = 'jeshan/scale-your-cloudformation';
       window.$docsify = {
         homepage: 'preface.md',
+        copyCode: {
+          buttonText : 'Copy to clipboard',
+          errorText  : 'Error',
+          successText: 'Copied'
+        },
         auto2top: true,
         loadSidebar: true,
         subMaxLevel: 4,
@@ -29,6 +34,7 @@
         ],
       }
     </script>
+    <script src="//unpkg.com/docsify-copy-code@2"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
