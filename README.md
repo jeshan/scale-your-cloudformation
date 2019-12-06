@@ -1,6 +1,6 @@
 # Scale your Cloudformation: success tactics for getting more out of Infrastructure as Code on AWS
 
-In this guide you will learn:
+In this guide, you will learn:
 - Mistakes to avoid when adopting cloudformation at scale
 - Free tools to generate cloudformation templates
 - Misconceptions about Cloudformation
@@ -10,5 +10,12 @@ In this guide you will learn:
 - How to generate your diagrams for your AWS cloud architecture
 
 ## Ways to read this guide
-1. Browse this repo here on GitHub.
+1. Browse the [docs](docs/) directory here on GitHub.
 2. Read on the website: https://scaleyourcloudformation.com
+
+# deploy
+export AWS_PROFILE=jeshanco
+export ACCOUNT_ID=670396733291
+
+# TODO:
+- cover AWS CDK
