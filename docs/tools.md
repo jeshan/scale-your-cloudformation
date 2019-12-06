@@ -68,9 +68,11 @@ It can help you fix some low-hanging fruit issues like overly permissive permiss
 
 ![](images/image19.png)
 Check their home page out on Github:
+
 https://github.com/stelligent/cfn_nag
 
 The list of about 45 rules is available here:
+
 https://github.com/stelligent/cfn_nag/tree/master/spec/custom_rules
 
 
