@@ -15,3 +15,16 @@ In this guide, you will learn:
 
 # TODO:
 - cover AWS CDK
+
+# Note to forkers:
+This project uses docsify to convert the markdown files into a simple static website.
+
+-  `npm i docsify-cli -g`
+- `docsify serve docs`
+- Open browser at http://localhost:3000
+- Edit files and see changes reloaded live
+
+## Deploying on AWS
+Uses the AWS CDK. See [lib/pipeline-construct.js](lib/pipeline-construct.js) for details on the deployment pipeline.
+- `npm i -g aws-cdk`
+- `cdk deploy`
