@@ -28,3 +28,8 @@ This project uses docsify to convert the markdown files into a simple static web
 Uses the AWS CDK. See [lib/pipeline-construct.js](lib/pipeline-construct.js) for details on the deployment pipeline.
 - `npm i -g aws-cdk`
 - `cdk deploy`
+
+# Legal
+Released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
