@@ -13,9 +13,5 @@ In this guide, you will learn:
 1. Browse the [docs](docs/) directory here on GitHub.
 2. Read on the website: https://scaleyourcloudformation.com
 
-# deploy
-export AWS_PROFILE=jeshanco
-export ACCOUNT_ID=670396733291
-
 # TODO:
 - cover AWS CDK
