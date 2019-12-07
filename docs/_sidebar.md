@@ -1,3 +1,4 @@
+- [Preface](preface.md)
 - [Oligatory Introduction](introduction.md)
 - [Key Features](key-features.md)
 - [5 misconceptions about Cloudformation](misconceptions.md)
