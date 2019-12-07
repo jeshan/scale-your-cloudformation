@@ -38,8 +38,12 @@ The readme page shows how easy it is to get started. Example reading and decrypt
 Cloudformation likes it when you update resources only through it, and not some external step like point-and-click. Sometimes, people do it out of necessity, e.g fixing an outage to restore service to their applications as soon as possible. If these changes are not reflected in the template, it means that template has “drifted” from the resource, i.e the configuration file does not match exactly what was deployed. AWS provides a feature to mitigate this: [Drift Detection](https://aws.amazon.com/about-aws/whats-new/2018/11/aws-cloudformation-now-supports-drift-detection/). You can invoke it through the API and it can tell you for a certain stack if its resources don’t match expected values. Furthermore, AWS provides an AWS Config rule to automatically run these checks called [cloudformation-stack-drift-detection-check](https://docs.aws.amazon.com/config/latest/developerguide/cloudformation-stack-drift-detection-check.html?shortFooter=true). Use it as an additional tool in your infra automation toolset.
 
 
-## Cannot manage existing resources
-You cannot ask Cloudformation to start managing your existing resources; you must recreate them as part of a certain stack. Therefore, if you want to use Cloudformation as much as possible, you must:
+## Cannot manage (most) existing resources
+Historically, you could not ask Cloudformation to start managing your existing resources; you must recreate them as part of a certain stack.
+
+> Since 2019, you can have CFN import some resources. However, you can do that for only about [50 resource types](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resource-import-supported-resources.html).
+ 
+Therefore, if you want to use Cloudformation as much as possible, you must:
 1. write the equivalent resource definition in Cloudformation syntax,
 2. create the stack and then
 3. delete the old resource.

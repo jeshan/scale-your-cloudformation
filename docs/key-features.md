@@ -12,6 +12,9 @@ Cloudformation syntax is so simple that it does not require programming experien
 ## Reusable templates
 A Cloudformation stack comes out of a template. In fact, the template is reusable within the same AWS account or region. This means that templates can be used to create the same resources in development, testing, production, etc. When the template is updated, these stacks can benefit from the same updates and the stacks can be kept identical to ensure parity.
 
+## Import existing resources
+CloudFormation usually requires that it manages resources that it creates. Since late 2019, it's now possible to bring existing resources under management. 
+
 
 ## Security
 You can restrict changes to the stacks with IAM roles which are the same concept widely used elsewhere on AWS. You can also use the security feature to prevent accidental changes to the stack. Learn about such service roles [here](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-servicerole.html?shortFooter=true).
