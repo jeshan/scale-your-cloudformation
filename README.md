@@ -1,5 +1,7 @@
 # Scale your Cloudformation: success tactics for getting more out of Infrastructure as Code on AWS
 
+![](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSWVBZnBKMnRxRnl6Q1kydUZCZFV5eVd2Q3h4eVE3MXI5VlJoVEdKZEJvLzExSWQvNGFXZUNvL3pXZW43VGVMc20vV1FoaTh3TzhVSDhtN3FiNTRvYnRRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjBjSmlZTTZwalRkbEdEM2UiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 In this guide, you will learn:
 - Mistakes to avoid when adopting cloudformation at scale
 - Free tools to generate cloudformation templates
