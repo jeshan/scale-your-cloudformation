@@ -89,9 +89,12 @@ A different way to expand the anchors is to use the `aws clouformation package` 
 https://stories.schubergphilis.com/cloudformation-coding-using-yaml-9127025813bb
 
 
-This method works but it’s also a matter of personal taste. 2 other solutions to consider:
+This method works but it’s also a matter of personal taste. 3 other solutions to consider:
 
 1. Use [Troposphere](tools.md#Troposphere), the template generator for Python
 2. Use [Macros](key-features.md#Macros), the feature that allows runtime transformations of these templates
+3. Use the AWS CDK framework, which uses programming languages like Python and JavaScript to generate CloudFormation templates at scale.
+
+> TODO: cover AWS CDK in detail
 
 Read on to learn more about these 2 options.
