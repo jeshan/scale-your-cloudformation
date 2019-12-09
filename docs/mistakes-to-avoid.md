@@ -13,7 +13,7 @@ You can spot if you change a certain property, the docs will say “Update requi
 The [AWS Cloudformation plugin for JetBrains](https://plugins.jetbrains.com/plugin/7371-aws-cloudformation) shows the same docs just mentioned but in a more handy fashion. This include a line that specifies whether the resource will be replaced:
 ![](images/image15.png)
 
-It’s the same as above, but slightly more plactical.
+It’s the same as above, but slightly more practical.
 
 ### Use changesets
 This is the most reliable option; Cloudformation can show you a preview on what changes will happen if you go ahead with a stack update. You could use the AWS CLI but the sceptre launcher makes it easy to view these changesets.
