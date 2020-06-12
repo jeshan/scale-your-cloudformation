@@ -31,6 +31,10 @@ Uses the AWS CDK. See [lib/pipeline-construct.js](lib/pipeline-construct.js) for
 - `npm i -g aws-cdk`
 - `cdk deploy`
 
+This is what the CDK will deploy:
+
+![](/diagram.png)
+
 # Legal
 Released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
