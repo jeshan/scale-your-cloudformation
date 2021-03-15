@@ -27,6 +27,29 @@ Review its docs for more interesting features:
 
 https://sceptre.cloudreach.com/latest/index.html
 
+## Takomo
+![](images/image27.png)
+
+Takomo helps you organize, parameterize and deploy CloudFormation stacks across multiple regions and accounts. It works equally well with smaller deployments consisting of just a few stacks and larger multi-account environments.
+
+Takomo was inspired by Cloudreach’s excellent [Sceptre](https://sceptre.cloudreach.com/), and [Terraform](https://www.terraform.io/) created by Hashicorp. It's built with Node.js, making it a good choice for folks who work mainly with Node.js/JavaScript.
+
+Key features:
+
+- Resolve stack parameter values at deployment time
+- Review changes to stack resources and template files before deployment
+- Plug in your own JavaScript code to extend the core features
+- Take advantage of dynamic templating with Handlebars to avoid repetitive configuration and copy-pasting in configuration files and CloudFormation templates
+- Includes safety features that prevent deployments to the wrong environments and accounts
+
+Takomo's commands are similar to those of Sceptre's:
+
+```bash
+tkm stacks deploy -y /test/my-stack.yml
+```
+
+See documentation at https://docs.takomo.io/.
+
 ## Cloudformation designer
 Plain text is hard to understand. You can use the [Cloudformation designer](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html) to create good looking images from your templates. It also offers a drag-and-drop tool to fasten template authoring.
 
